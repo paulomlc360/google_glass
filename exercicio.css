@@ -1,0 +1,87 @@
+body{
+	background: #ccc;
+}
+
+#cabecalho{
+	background: yellow;
+	width:100%; 
+	/*height:60px;*/
+}
+#cabecalho img{
+	height:100px;
+	width:auto;
+}
+#barra_lateral{
+	background: red;
+	height:711px; 
+	width:15%;
+	position:relative;
+	float:left;
+}
+#conteudo{
+	background: green;
+	height:711px; 
+	width :85%;
+	position: relative;
+	float: left;
+}
+#rodape{
+	background:blue; 
+	height:159px;
+	width:100%;
+	position: relative;
+	float: left;
+}
+
+/*menu*/
+#barra_lateral ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+
+}
+#barra_lateral a{
+	display: block;
+	padding:10px 15px 10px 15px; 
+	background: pink;
+	color:#000;
+	margin: 5px;
+	
+
+}
+#barra_lateral a:hover{
+	background: #000;
+	color:pink;
+}
+
+#rodape p{
+	color: #ffffff;
+	text-align: center;
+	margin-top: 80px;
+}
+
+/*ESTILO PARA CHAMADA DA NOTÍCIAS*/
+
+.bloco-noticia {
+clear: both;
+}
+
+.bloco-noticia .imagem {
+	width:150px;
+	height:150px;
+	position: relative;
+	float: left;
+	overflow: hidden;
+}
+
+.bloco-noticia .imagem img {
+	width: 100%;
+	height: auto;
+}
+
+.bloco-noticia .chamada-noticia-conteudo {
+	position: relative;
+	float: left;
+	background: yellow;
+
+}
